@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: emoticons, Arial, sans-serif;
+  background-color: #eee;
+}
+h1 {
+  background-color: lch(100% 0.01 296.81);
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+h5{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin:20px 0;
+    display: none;
+}
+.main {
+    position: relative;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lch(100% 0.01 296.81);
+  padding: 30px;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.circle{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(204, 69, 69);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 1.6;
+    top: 0;
+    left: 50%;
+transform: translate(-50%, -50%);
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    margin: 20px 0;
+}
+.quote {
+  font-size: 24px;
+  color: #333;
+  font-style: italic;
+  margin-bottom: 20px;
+  display: block;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+#generateQuote{
+    background-color: green;
+}
+#AutoQuote {
+    background-color: blue;
+}
+#StopQuote {
+    background-color: red;
+}
