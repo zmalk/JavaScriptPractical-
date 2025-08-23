@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 20px;
+  background-color: white;
+}
+.main {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+}
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.box {
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.box .slide {
+  width: 300px;
+  height: 250px;
+  margin: 20px auto;
+  border-radius: 8px;
+  background-color: white;
+  padding: 15px;
+}
+.slide div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #3333332c 1px solid;
+  padding: 10px;
+  margin: 2px;
+}
+.slide h4{
+    text-align: center;
+}
+.slide button {
+    background-color: #dc3545;
+    width: 100%;
+    margin: 10px auto;
+}
