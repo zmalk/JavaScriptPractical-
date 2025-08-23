@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Currency API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Currency Converter Applicatio</h1>
+    <div class="container">
+        <input type="number" name="" class="amount" placeholder="Enter Amount">
+        <select class="from">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+            <option value="JPY">JPY</option>
+        </select>
+        <select class="to">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+            <option value="JPY">JPY</option>
+        </select>
+        <button id="convert" onclick="convertCurr()">Convert</button>
+        <div class="result"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
