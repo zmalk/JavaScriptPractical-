@@ -83,6 +83,20 @@ addBtn.addEventListener("click", function () {
   eventDate.value = "";
 });
 
+function Add() {
+  eventName = eventName.value;
+  eventOrg = eventOrg.value;
+  eventDate = eventDate.value;
+
+  let event = {
+    name: eventName,
+    org: eventOrg,
+    date: eventDate,
+  };
+
+  let events = JSON.parse(localStorage.getItem("events")) || [];
+  console.log(events);
+}
 
 box.addEventListener("click", function (e) {
   if (e.target.classList.contains("bt2")) {
@@ -90,5 +104,3 @@ box.addEventListener("click", function (e) {
   }
 });
 // lets deal with local storage
-
-
