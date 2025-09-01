@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 20px;
+  background-color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 700px;
+  margin: 50px auto;
+}
+.option {
+  background-color: white;
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.option .pass {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border-right: 2px solid #f4f4f4;
+}
+
+.num ,.char {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border-right: 2px solid #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
+input[type="checkbox"] {
+  /* هنا تضيف التنسيقات */
+  width: 20px;
+  height: 20px;
+  accent-color: chocolate; /* لتغيير لون العلامة عند التحديد */
+  margin: 10px auto;
+}
+
+.option .pass label {
+  text-align: center;
+  margin: 10px auto 0;
+}
+.option .pass input {
+  border: 1px solid #ccc;
+  width: 200px;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+button {
+  color: white;
+  background-color: chocolate;
+  border: 0;
+  height: 44px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+button:hover {
+  background-color: rgb(179, 111, 64);
+}
+.one {
+  margin-bottom: 15px;
+  background-color: white;
+  border: 2px chocolate dashed;
+  height: 44px;
+  text-align: center;
+  line-height: 2.3;
+  font-weight: 600;
+  font-size: 18px;
+}
+.two {
+  margin-bottom: 15px;
+
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.three {
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+}
+
+ol{
+  padding: 0;
+  margin: 10px auto;
+  list-style-position: inside;
+}
+
+ol li {
+  border: 2px solid tomato;   /* لون الحدود */
+  border-radius: 6px;      /* زوايا مدورة */
+  padding: 5px;            /* مسافة داخلية */
+  margin: 5px 0;           /* مسافة بين العناصر */
+  background-color: #f9f9f9; /* خلفية خفيفة */
+}
+
+ol li::marker {
+  color: tomato;                 /* لون الرقم */
+  background-color: tomato;     /* خلفية */
+  border-radius: 50%;           /* بيضاوي (دائرة) */
+  padding: 4px 8px;             /* حجم داخلي حول الرقم */
+  font-weight: bold;            /* تخانة الرقم */
+}

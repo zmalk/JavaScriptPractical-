@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Password Generator with options</h1>
+    <div class="main">
+        <div class="option">
+            <div class="pass">
+                <label for="t">Password lenght</label> <input type="text" id="t" placeholder="Password lenght {1,32}"
+                    required>
+            </div>
+            <div class="num">
+                <label for="Number">Number+ char</label>
+                <input type="checkbox" id="Number">
+            </div>
+            <div class="char">
+
+                <label for="char">Special Char</label>
+                <input type="checkbox" id="char">
+            </div>
+        </div>
+        <button class="btn"> Generate Password</button>
+        <div class="one">Password Will Appear Here</div>
+        <div class="two">latest 10 Genarated Passwords</div>
+        <div class="three">Password Will Show Here
+            <ol>
+                
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
